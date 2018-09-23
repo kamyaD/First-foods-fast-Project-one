@@ -11,7 +11,7 @@ The app allows the user to create an account and login, the users can also make 
 The admin can see the list of items and can accept and decline the orders, he can also mark orders as complete.
 
 # How to navigate the app.
-  1: The apps URL is https://kamyad.github.io/First-Foods-project
+  1: The apps URL is https://kamyad.github.io/First-Foods-project/UI
   
   2: To Access the rest of the pages click login. This will take you to the login page.
   
