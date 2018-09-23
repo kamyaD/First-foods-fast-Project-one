@@ -1,8 +1,6 @@
 <a href="http://www.w3.org/html/logo/">
 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
 </a>
-[![Javascript](https://badges.frapsoft.com/javascript/code/javascript.png?v=101)]
-
 
 # First-Foods-project
 Fast-Food-Fast is a food delivery service app for a restaurant
