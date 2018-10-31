@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fast-Food-Fast</title>
-        <link href="css/style.css" rel="stylesheet">
-        <script src="script/script.js"></script>
-    </head>
-    <body>
-        <div class="wrap">
-            <div  class="main-signup">
-                <h1>Fast Foods Fast</h1>
-                <img src="images/title.jpg" width="400px" alt="logo">
-                <div>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html">Sign up</a></li>                     
-                        <li><a href="order.html">Order List</a></li>
-                    </ul>
-                </div>
-                <p>
+
+<head>
+    <title>Fast-Food-Fast</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="script/login.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="main-signup">
+            <h1>Fast Foods Fast</h1>
+            <img src="images/title.jpg" width="400px" alt="logo">
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Sign up</a></li>
+                    <li><a href="menu.html">menu</a></li>
+                </ul>
+            </div>
+            <p>
                 <div class="facts">Please Login:</div>
                 <p>
-                <p>    
-                    
-                        <form name="login"   method="post" id="form">
+                    <p>
+
+                        <div class="facts">
+                            <span id="message"></span>
                             <p>
-                            <label for="Last Name"><b>Email  :</b></label>
-                            <input type="email" placeholder="Enter Email Adress" name="email" required/>
+                                <label for="name"><b>name :</b></label>
+                                <input type="name" id="name" placeholder="name" required />
                             </p>
-                            <p>                                                      
-                            <label for="Password"><b>Password:</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
+                            <p>
+                                <label for="Password"><b>Password:</b></label>
+                                <input type="password" id="password" placeholder="Enter Password" name="password"
+                                    required>
                             </p>
-                            <button type ="submit" value="Submit"  > Submit</button>
-                            <button type ="button" value="Cancel"> Cancel</button>
-                            </p>
-                                        
-                        </form>
-                    
-                </p>            
+                            <button onclick="login()"> Submit</button>
+                            <button type="button" value="Cancel"> Cancel</button>
+                        </div>
+                    </p>
+
         </div>
-    </body>
-</html>    
+
+        </p>
+    </div>
+</body>
+
+</html>

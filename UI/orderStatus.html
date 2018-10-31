@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fast-Food-Fast</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="script/update.js"></script>
+
+    <head>
+
+    <body>
+        <div class="wrap">
+            <div class="main-signup">
+                <h1>Fast Foods Fast</h1>
+                <img src="images/title.jpg" width="400px" alt="logo">
+                <div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="allOrders.html">View orders</a></li>
+                        <li><a href="index.html">Sign out</a></li>
+                        <li><a href="customers_order.html">Admin</a></li>
+
+                    </ul>
+                </div>
+                <p>
+                    <div class="facts">Edit this order:
+                        <p>
+                            <table class="facts1">
+                                <tr>
+                                    <td><b>ID</td>
+                                    <td><b>Date</td>
+                                    <td><b>Customer Name</td>
+                                    <td><b>Order name</td>
+                                    <td><b>Order Status</td>
+                                </tr>
+                            </table>
+                        </p>
+                    </div>
+                    <p>
+                        <div class="facts1">
+                            <span id="message"></span>
+
+                            <table>
+                                <thead>
+                                    <!-- <td>ID</td>
+                                    <td>Date</td>
+                                    <td>Customer Name</td>
+                                    <td>Order Name</td>
+                                    <td>Order Status</td> -->
+                                </thead>
+                                <tbody id="orders">
+
+                                </tbody>
+
+                            </table>
+                            <br />
+                            <div>
+                                <label for="order_status"><b>status:</b></label>
+                                <input type="order_status" id="status" placeholder="Enter status" name="status"
+                                    required>
+                                <button onclick="update()"> Submit</button>
+                                <button type="button" value="Cancel"> Cancel</button>
+                            </div>
+
+
+
+
+                        </div>
+    </body>
+
+</html>

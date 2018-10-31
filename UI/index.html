@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fast-Food-Fast</title>
-        <link href="css/style.css" rel="stylesheet">
-        <script src="script/script.js"></script>
-    </head>
-    <body>
-                
-<div  class="main-signup">
-                <h1>Fast Foods Fast</h1>
-                    <img src="images/title.jpg" width="400px" alt="logo">
-                        <div>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>                     
-                                <li><a href="customers_order.html">Admin</a></li>
-                                <li><a href="order.html">User</a></li>
-                                <li><a href="login.html">Login</a></li>
-                            </ul>
-                        </div>
+
+<head>
+    <title>Fast-Food-Fast</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="script/register.js"></script>
+</head>
+
+<body>
+
+    <div class="main-signup">
+        <h1>Fast Foods Fast</h1>
+        <img src="images/title.jpg" width="400px" alt="logo">
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <p>
+            <div class="facts">Please Register:</div>
+            <p>
+                <p>
+
+                    <div class="facts">
+                        <span id=" message"></span>
                         <p>
-                        <div class="facts">Welcome to First Foods First!.Please Sign up:</div>
+                            <label for="name"><b>user name :</b></label>
+                            <input type="name" id="name" placeholder="user name" required />
+                        </p>
                         <p>
-                            <form name="sign_up" action="#"  method="post" id="form">
-                                <label for="First Name"><b>First Name:</b></label>
-                                <input type="text" placeholder="Enter First Name" name="fname" required><p>
-                                <label for="Last Name"><b>Last Name:</b></label>
-                                <input type="text" placeholder="Enter Last Name" name="name" required><p>
-                                <label for="Year of Birth"><b>Year of Birth:</b></label>
-                                <input type="text" placeholder="Enter Year of Birth" name="year" required></p>
-                                <label for="Last Name"><b>Email Adress:</b></label>
-                                <input type="email" placeholder="Enter Email Adress" name="email" required/><p>
-                                <label for="Password"><b>Password:</b></label>
-                                <input type="password" placeholder="Enter Password" name="psw" required><p>
-                                <label for="Repeat Password"><b>Repeat PW:</b></label>
-                                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-                                <p>
-                                <p>
-                                <button type ="submit" value="Submit" > Submit</button>
-                                <button type ="button" value="Cancel"> Cancel</button>
-                                </p>
-                            </form>                                              
-                </div> 
-            </div>
-        </div>     
-    </body>
-</html>    
+                            <label for="email"><b>email:</b></label>
+                            <input type="email" id="email" placeholder="Enter Email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="Password"><b>Password:</b></label>
+                            <input type="password" id="password" placeholder="Enter Password" name="password" required>
+                        </p>
+                        <button onclick="register()"> Submit</button>
+                        <button type="button" value="Cancel"> Cancel</button>
+                    </div>
+
+                </p>
+
+
+    </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
